@@ -3,7 +3,7 @@
   "displayName":"p7d-markdown-it-linebreak",
   "description": "Adjust handling of line breaks in markdown preview html.",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "peaceroad",
   "repository": {
     "url": "https://github.com/peaceroad/vsce-p7d-markdown-it-linebreak"
