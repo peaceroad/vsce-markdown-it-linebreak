@@ -1,0 +1,30 @@
+{
+  "name": "p7d-markdown-it-linebreak",
+  "displayName": "Adjust handling of line breaks in markdown preview html.",
+  "license": "MIT",
+  "version": "0.0.1",
+  "publisher": "peaceroad",
+  "repository": {
+    "url": "https://github.com/peaceroad/vsce-p7d-markdown-it-linebreak"
+  },
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "capabilities": {
+    "virtualWorkspaces": true,
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  },
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "markdown.markdownItPlugins": true
+  },
+  "dependencies": {
+    "@sup39/markdown-it-cjk-breaks": "^1.2.0"
+  }
+}
